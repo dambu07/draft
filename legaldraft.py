@@ -12,7 +12,7 @@ class Law:
                governing_jurisdiction, witness_name, witness_address, notary_details, legal_references,
                specific_language, witness_signatures):
         # Generate a response using GPT-3
-        response = openai.ChatCompletion.create(
+        response = openai.Completion.create(
             engine="text-davinci-003",
             prompt="You are a Legal Document Drafting Bot. Please draft a legal document based on the following information:\n"
                    f"Name: {user_name}\n"
