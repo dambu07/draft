@@ -114,7 +114,7 @@ def main():
     st.image("logo.png", width=150)  # Adjust the image width to make it smaller
 
     st.title("Legal Document Drafting Chatbot")
-    st.title("(THIS IS NOT THE FINAL VERSIO, THE BOT IS STILL IN TESTING)")
+    st.title("(THIS IS NOT THE FINAL VERSION, THE BOT IS STILL IN TESTING AND WE ARE CONSTANTLY UPDATING IT SO EXPECT SOME ERRORS AND BUGS TO BE THERE)")
     st.markdown("Welcome to the Legal Document Drafting Chatbot! Please enter the following information:")
 
     type = st.selectbox("What type of document do you want to draft?",
